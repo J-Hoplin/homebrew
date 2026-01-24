@@ -1,7 +1,17 @@
-# Hoplin Lab TUI Homebrew deployments
+# Hoplin Lab Terminal UI Applications
 
 ## Hoplin Terminal IDE
 This tap distributes the hoplin-codex binary via Homebrew.
+
+### Install (public repo)
+
+```sh
+# Add tap to homebrew
+brew tap J-Hoplin/homebrew https://github.com/J-Hoplin/homebrew.git
+
+# Install
+brew install J-Hoplin/homebrew/hoplin-codex-tool
+```
 
 ### About Hoplin Terminal IDE
 - Keyboard-first terminal IDE built with Textual.
@@ -33,22 +43,7 @@ This tap distributes the hoplin-codex binary via Homebrew.
 | File Tree (focused) | `d` | Delete                    |
 | File Tree (focused) | `e` | View/Edit                 |
 
-### Install (public repo)
-```sh
-brew tap J-Hoplin/homebrew https://github.com/J-Hoplin/homebrew.git
 
-# install
-brew install J-Hoplin/homebrew/hoplin-codex-tool
-```
+### How it look
 
-## Verify
-```sh
-hoplin-codex --version
-brew test J-Hoplin/homebrew/hoplin-codex-tool   # simple version check
-```
-
-## Update
-```sh
-brew update
-brew upgrade J-Hoplin/homebrew/hoplin-codex-tool
-```
+<img src="img/hoplin-codex/codex-tool1.svg" alt="Img1" width="49%"> <img src="img/hoplin-codex/codex-tool2.svg" alt="img2" width="49%">
