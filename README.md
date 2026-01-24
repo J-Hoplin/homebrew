@@ -19,11 +19,11 @@ brew install J-Hoplin/homebrew/hoplin-codex-tool
 ```
 
 ### About Hoplin Terminal IDE
-- Keyboard-first terminal IDE built with Textual.
+- Keyboard-first with Mouse event support terminal IDE built with Textual.
 - Agent tools (read/write/patch files, shell, grep) with user consent.
 - MCP client support (stdio/http) via `~/.codex/config.toml`.
-- Sessions: save/restore chats; manage multiple conversations.
-- Git-aware UI: branch switcher, live status, diff viewer.
+- Sessions: save/restore chats + manage multiple conversations.
+- Git-aware UI with branch switcher, live status, diff viewer.
 - Skills and `@filename` context for project-aware assistance.
 - Keyboard shortcuts:
 
