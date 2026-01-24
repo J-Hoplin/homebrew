@@ -1,14 +1,14 @@
 # Hoplin Lab Terminal UI Applications
 
-## Hoplin Terminal IDE
-This tap distributes the hoplin-codex binary via Homebrew.
+## Hoplin Codex Tool
+This tap distributes the hoplin-codex-tui binary via Homebrew.
 
 ### Build with
 
 - Python 3
 - Textualize
 
-### Install (public repo)
+### Install
 
 ```sh
 # Add tap to homebrew
@@ -16,6 +16,15 @@ brew tap J-Hoplin/homebrew https://github.com/J-Hoplin/homebrew.git
 
 # Install
 brew install J-Hoplin/homebrew/hoplin-codex-tool
+```
+
+### Update
+
+```sh
+brew update
+
+# Update version
+brew upgrade J-Hoplin/homebrew/hoplin-codex-tool
 ```
 
 ### About Hoplin Terminal IDE
