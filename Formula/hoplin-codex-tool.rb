@@ -5,7 +5,7 @@ class HoplinCodexTool < Formula
   license "MIT"
 
   url "https://raw.githubusercontent.com/J-Hoplin/homebrew/refs/heads/main/binary/hoplin-codex/hoplin-codex", using: :nounzip
-  sha256 "4ff76b573906b555499f5c0d0b04dfd267d303fe91546358803bace13db0c8f1"
+  sha256 "41386e0d9163a40591f4e1b8510128f996d61bee91ddf9aaa02b0328d4bd5254"
 
   def install
     bin.install "hoplin-codex"
