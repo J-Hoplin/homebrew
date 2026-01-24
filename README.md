@@ -3,6 +3,11 @@
 ## Hoplin Terminal IDE
 This tap distributes the hoplin-codex binary via Homebrew.
 
+### Build with
+
+- Python 3
+- Textualize
+
 ### Install (public repo)
 
 ```sh
@@ -46,4 +51,5 @@ brew install J-Hoplin/homebrew/hoplin-codex-tool
 
 ### How it look
 
-<img src="img/hoplin-codex/codex-tool1.svg" alt="Img1" width="49%"> <img src="img/hoplin-codex/codex-tool2.svg" alt="img2" width="49%">
+![Hoplin Codex screenshot 1](img/hoplin-codex/sc1.png)
+![Hoplin Codex screenshot 2](img/hoplin-codex/sc2.png)
