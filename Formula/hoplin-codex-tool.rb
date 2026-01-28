@@ -1,11 +1,11 @@
 class HoplinCodexTool < Formula
   desc "Hoplin's Terminal IDE with codex support"
   homepage "https://github.com/J-Hoplin/homebrew"
-  version "0.2.3"
+  version "0.2.4"
   license "MIT"
 
   url "https://raw.githubusercontent.com/J-Hoplin/homebrew/refs/heads/main/binary/hoplin-codex/hoplin-codex", using: :nounzip
-  sha256 "8fd3d92410f912fc0639da511de75e61d8e0bd6383320958154cfa3e30ed30f9"
+  sha256 "2ce61a6397fb4071d5c72fb2ef73a2fa3418920b178233a7eb1fafe4d3afef03"
 
   def install
     bin.install "hoplin-codex"
